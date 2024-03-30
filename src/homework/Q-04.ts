@@ -4,15 +4,9 @@
   
   //EX - 1
   
-  function calculateOperation1(a: number, b: number, c: number): number {
+  function calculateOperation(a: number, b: number, c: number): number {
     let sumResult = a + b;
     let multiplicationResult = sumResult * c;
-    return multiplicationResult;
-  }
-
-  function calculateOperation2(x: number, y: number, z: number): number {
-    let sumResult = x + y;
-    let multiplicationResult = sumResult * z;
     return multiplicationResult;
   }
 
